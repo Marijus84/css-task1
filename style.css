@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #421244;
+  color: #9e3730;
+  text-align: center;
+}
+
+div {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5% 20%;
+  padding: 2%;
+  border: 3px dotted orange;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: orange;
+  margin-top: 1rem;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  margin: 3rem 0;
+}
+
+img {
+  width: 85%;
+  /* margin-top: 3rem; */
+  border: 25px solid white;
+  border-radius: 75px;
+  border-color: white black green blue;
+}
+
+/* span {
+  font-size: 3rem;
+  padding-right: 10px;
+} */
+
+p::first-letter {
+  font-size: 3rem;
+  padding-right: 10px;
+}
